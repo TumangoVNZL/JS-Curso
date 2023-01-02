@@ -8,5 +8,6 @@ function increment() {
 function save () {
 	let countStr = counter + " - ";
 	saveEl.textContent += countStr;
-	console.log(counter);
+	counter = counter - counter;
+	countEl.innerText = counter;
 }
